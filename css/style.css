@@ -1,0 +1,77 @@
+@import 'reset.css';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: #121212;
+	background-color: #fbf7f7;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	background: url('../assets/img/header.png') no-repeat;
+	background-position: center;
+}
+
+.header {
+	padding: 39px 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1100px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_l img {
+	cursor: pointer;
+}
+
+/* ----------header_r----------- */
+
+.header_r {
+	gap: 57px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_r ul {
+	gap: 78px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_r ul li a {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+	color: #ffffff;
+	transition: all 0.3s;
+}
+
+.header_r ul li a:hover {
+	color: #2a76ac;
+	transform: scale(1.2);
+}
+
+
+
+/* Section - 1 - Program */
+
+
+/* ----------p_societies----------- */
