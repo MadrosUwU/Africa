@@ -1,0 +1,36 @@
+
+.how_l{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.how_l button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    background: #FF9C08;
+    border-radius: 10px;
+}
+.how_l h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FF9C08;
+}
+.how_l p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    color: black;
+}
+.how_r img {
+    display: grid;
+    grid-template-columns:  1fr (3);
+    justify-items: center;
+}
