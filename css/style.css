@@ -1,3 +1,15 @@
+@import url(./reset.css); 
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* container */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1230px;
+}
 
 .how_l button{
     font-family: 'DM Sans';
@@ -28,4 +40,69 @@
     display: grid;
     grid-template-columns:  1fr (3);
     justify-items: center;
+}
+
+/* Section - We (Kasim) */
+.we {
+    display: grid;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 470px));
+}
+
+/* ------we_l------ */
+.card_p {
+display: block;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #6E6E6E;
+margin-bottom: 17px;
+}
+
+
+.card p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #090909;
+}
+
+/* ------we_r------ */
+.we_r > span {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FF9C08;
+    margin-bottom: 20px;
+}
+
+.we_r h2 {
+font-weight: 700;
+font-size: 42px;
+line-height: 58px;
+color: #090909;
+margin-bottom: 25px;
+}
+
+.we_r p {
+font-weight: 400;
+font-size: 17px;
+line-height: 30px;
+color: #6E6E6E;
+margin-bottom: 12px;
+}
+
+/* ------we_vars------ */
+.we_var {
+display: block;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+color: #090909;
+margin-bottom: 10px;
 }
